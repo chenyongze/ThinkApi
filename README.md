@@ -18,7 +18,7 @@
 | unique_id | 唯一标识 类似web pc端sessionid |
 | time     | 当前时间戳                     |
 | sign     | 签名秘钥                       |
-| _api_secret_key| 秘钥                     |
+| \_api_secret_key| 秘钥                     |
 ### sign = md5($password.$unique_id.$username.秘钥);
 
 > 接口调用示例
